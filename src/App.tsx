@@ -4,11 +4,13 @@ import { Provider } from 'react-redux';
 import store from './store';
 
 import Catalog from './components/Catalog/Catalog';
+import Cart from './pages/Cart/Cart';
 
 function App() {
   return (
     <Provider store={store}>
       <Catalog />
+      <Cart />
     </Provider>
   );
 }
