@@ -9,20 +9,20 @@ export const addProductToCartRequest = (product: IProduct) => {
   }
 }
 
-export const addProductToCartSuccess = (productId: number) => {
+export const addProductToCartSuccess = (product: IProduct) => {
   return {
-    type: 'AAD_PRODUCT_TO_CART_SUCCESS',
+    type: 'ADD_PRODUCT_TO_CART_SUCCESS',
     payload: {
-      productId
+      product
     }
   }
 }
 
-export const addProductToCartFailure = (product: IProduct) => {
+export const addProductToCartFailure = (productId: number) => {
   return {
     type: 'ADD_PRODUCT_TO_CART_FAILURE',
     payload: {
-      product
+      productId
     }
   }
 }
