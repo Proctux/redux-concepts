@@ -17,11 +17,8 @@
     "react-redux": "^7.2.2",
     "react-scripts": "4.0.1",
     "redux": "^4.0.5",
-<<<<<<< HEAD
-    "redux-saga": "^1.1.3",
-=======
     "redux-devtools-extension": "^2.13.8",
->>>>>>> beb1d57ecff310ed8ac35f03df216f0ec3ea1d7e
+    "redux-saga": "^1.1.3",
     "typescript": "^4.0.3",
     "web-vitals": "^0.2.4"
   },
